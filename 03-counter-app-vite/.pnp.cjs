@@ -44,7 +44,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:18.2.0"],\
-            ["vite", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:3.1.4"]\
+            ["vite", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:3.1.4"],\
+            ["whatwg-fetch", "npm:3.6.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -65,7 +66,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["prop-types", "npm:15.8.1"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:18.2.0"],\
-            ["vite", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:3.1.4"]\
+            ["vite", "virtual:5d99a7714cd7a3de643bb77f0f5d545d1802e0d30b075235404f192ee0e2f7451e25c8f54815511279bbd4c91ad8ab100a89fc6a9e37e51a8736b99158dcbf0c#npm:3.1.4"],\
+            ["whatwg-fetch", "npm:3.6.2"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -6862,6 +6864,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["walker", "npm:1.0.8"],\
             ["makeerror", "npm:1.0.12"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["whatwg-fetch", [\
+        ["npm:3.6.2", {\
+          "packageLocation": "./.yarn/cache/whatwg-fetch-npm-3.6.2-4bdf324792-ee976b7249.zip/node_modules/whatwg-fetch/",\
+          "packageDependencies": [\
+            ["whatwg-fetch", "npm:3.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
