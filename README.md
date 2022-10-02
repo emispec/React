@@ -1,2 +1,2 @@
 # React
-React.js | Redux 
+React.js | Redux | Jest
