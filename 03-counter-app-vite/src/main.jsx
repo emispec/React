@@ -13,7 +13,7 @@ import { FirstApp } from "./FirstApp.jsx";
 const root = document.getElementById("root");
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    {/* <CounterApp value={8080} /> */}
-    <FirstApp title="Hola, probando desde main" />
+    <CounterApp value={8080} />
+    {/* <FirstApp title="Hola, probando desde main" /> */}
   </React.StrictMode>
 );
