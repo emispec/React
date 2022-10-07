@@ -27,6 +27,18 @@ h3 {
   margin-bottom: 5px;
 }
 
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.hasb {
+  margin-right: 20px;
+  margin-bottom: 50px;
+  width: 80px;
+}
+
 .card-grid {
   display: flex;
   flex-direction: row;
